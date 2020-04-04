@@ -77,24 +77,29 @@ box-shadow: 0 1px 1px rgba(0,0,0,.5);
 .about{
     padding-top: 100px;
     margin-bottom: -130px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.5); 
 }
 
 .profile-img{
     height: 400px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.5); 
 }
 
 .nav-bar
 {
     top: 0;
-  position: sticky;
+    position: sticky;
     z-index: 2;
-    background-color: black;
+    background-color: rgb(165, 117, 14);
+   
 }
 
 
 
 .navbar-brand img{
-    height: 50px;
+    height: 40px;
+    width: 30%;
+    border-radius: 40%;
 }
 
 .nav-bar .fa-bars{
@@ -133,7 +138,7 @@ box-shadow: 0 1px 1px rgba(0,0,0,.5);
     padding-top: 50px;
     padding-bottom: 30px;
     background: #f9f9f9;
-    
+    box-shadow: 0 1px 5px rgba(0,0,0,.5); 
 }
 
 .resume h3{
@@ -145,6 +150,7 @@ box-shadow: 0 1px 1px rgba(0,0,0,.5);
     list-style-type: none;
     position: relative;
     
+    text-align: center;
 }
 .timeline::before{
     content: '';
@@ -159,23 +165,37 @@ box-shadow: 0 1px 1px rgba(0,0,0,.5);
 }
 
 .timeline li{
+    
+
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     background: rgb(228, 236, 236) ;
+    box-shadow: 0 1px 5px rgba(0,0,0,.5); 
 }
 
 .timeline li h4{
-   background-color: rgb(106, 162, 172);
+    
+background-color: rgb(106, 162, 172);
    padding: 5px 0 5px 20px;
-  color: #fff;
+   color: #fff;
    font-size: 15px; 
 }
+.timeline li p{
+    text-align: center;
+    text-shadow: initial;
+}
+
+.timeline li h4 b{
+    text-align: center;
+}
 .timeline li h4 span{
+    
     font-weight: bold;
     color: rgb(66, 13, 13);
+   
 }
-.timeline li::before{
+.timeline li:before{
     content: '';
     background: #fff;
     display: inline-block;
@@ -190,18 +210,20 @@ box-shadow: 0 1px 1px rgba(0,0,0,.5);
 .skills{
     padding-top: 50px;
     padding-bottom: 50px;
+
 }
+
 .skills h1{
     margin-bottom: 10px;
 }
-.dev-icons {
+.dev-icons{
     background: #f9f9f9;
     padding: 10px;
     border-bottom-right-radius: 50px;
+    border-top-left-radius: 50%;
     text-align: center;
     font-size: 3rem;
-   
-  
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); 
   }
 .list-inline-item i:hover {
     color: rgb(208, 230, 18);
@@ -252,8 +274,8 @@ font-size: 20px;
 }
 
 .contact{
-    padding-top: 30px;
-    background: linear-gradient(rgba(10, 4, 4, 0.6),rgba(43, 17, 17, 0.6)),url(img/1.jpg);
+   
+    background: linear-gradient(rgba(10, 4, 4, 0.6),rgba(43, 17, 17, 0.6)),url(img/3.jpg);
     background-position: center;
     background-size: cover;
     background-size: auto;
@@ -262,7 +284,6 @@ font-size: 20px;
     
 }
 .contact .row{
-    padding: 30px 0;
     font-size: 22px;
 }
 
@@ -271,9 +292,10 @@ font-size: 20px;
     font-size: 40px;
 }
 .contact .btn{
-    padding: 10px 25px 10px 25px;
-    margin: 5px;
-    border-radius: 30px;
+    margin-top: 10%;
+    padding: 5px 20px 5px 20px;
+    margin: 2px;
+    border-radius: 35px;
     border: 2px solid #fff;
     background: transparent;
 }
