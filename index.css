@@ -27,6 +27,7 @@ font-family: sans-serif;
     border-radius: 50%;
     width: 250px;
     border: 2px solid #d6c636;
+    box-shadow: 0 1px 1px rgba(0,0,0,.5);  
 }
 
 .user-box h1{
@@ -34,10 +35,12 @@ font-family: sans-serif;
     color: #fff;
     font-weight: bold;
     margin: 10px;
+    
 }
 
 .user-box p{
     color: #fff;
+
 }
 
 .scroll-btn{
@@ -48,18 +51,20 @@ left: 50%;
 transform: translate(-50%);
 border: 2px solid #fff;
 padding: 10px 10px 20px;
-border-radius: 30px;    
+border-radius: 30px;  
+box-shadow: 0 1px 1px rgba(0,0,0,.5);    
 }
 
 .scroll-bar span{
     border: 2px solid #fff;
     font-size: 10px;
     border-radius: 30px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.5);  
 }
 
 .scroll-bar{
 
-    animation: mover 1s infinite alternate;
+    animation: mover .5s infinite alternate;
 }
 @keyframes mover{
     0%{transform: translateY(0);}
@@ -109,11 +114,13 @@ border-radius: 30px;
 }
 .Skill-bar p {
     margin-bottom: 6px;
-    font-weight: 600;     
+    font-weight: 600;   
+    box-shadow: 0 1px 1px rgba(0,0,0,.5);  
 }
 .progress{
     border-radius: 16px !important;
     margin-bottom: 10px;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
 }
 
 .progress-bar{
@@ -126,6 +133,7 @@ border-radius: 30px;
     padding-top: 50px;
     padding-bottom: 30px;
     background: #f9f9f9;
+    
 }
 
 .resume h3{
@@ -136,7 +144,7 @@ border-radius: 30px;
 .timeline{
     list-style-type: none;
     position: relative;
-
+    
 }
 .timeline::before{
     content: '';
@@ -147,6 +155,7 @@ border-radius: 30px;
     width: 2px;
     height: 100%;
     z-index: 1;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
 }
 
 .timeline li{
@@ -225,8 +234,10 @@ font-size: 20px;
     font-size: 15px;
     margin-top: 20px;
     color: rgb(31, 29, 29);
+    
 }
 .interests-box:hover{
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
     background: rgb(206, 142, 116);
     color: rgb(5, 97, 109);
     border-top-right-radius: 0;
@@ -234,6 +245,7 @@ font-size: 20px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
     transition: .80s;
+    
 }
 .interests-box:hover p{
     color: #fff;
@@ -288,6 +300,7 @@ font-size: 20px;
 }
 
 .social-icons{
+    
     top: 50%;
     transform: translateY(-50%);
     position: sticky;
@@ -306,11 +319,20 @@ font-size: 20px;
     margin-top: 5px;
     color: #fff;
     background: #000;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 45%;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
 }
 .social-icons ul li:hover{
    padding-left: 20px;
    width: 50px;
    transition: .4s; 
 }
+.social-icons ul li a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
 
+}
 
