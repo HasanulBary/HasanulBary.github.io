@@ -91,7 +91,7 @@ box-shadow: 0 1px 1px rgba(0,0,0,.5);
     position: sticky;
     z-index: 2;
     background-color: rgb(165, 117, 14);
-   
+    box-shadow: 0 5px 8px #494b2c;
 }
 
 
@@ -138,7 +138,7 @@ box-shadow: 0 1px 1px rgba(0,0,0,.5);
     padding-top: 50px;
     padding-bottom: 30px;
     background: #f9f9f9;
-    box-shadow: 0 1px 5px rgba(0,0,0,.5); 
+    box-shadow: 0 1px 5px #286782; 
 }
 
 .resume h3{
@@ -161,7 +161,7 @@ box-shadow: 0 1px 1px rgba(0,0,0,.5);
     width: 2px;
     height: 100%;
     z-index: 1;
-    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+    box-shadow: 0 5px 4px #286782;
 }
 
 .timeline li{
@@ -215,6 +215,7 @@ background-color: rgb(106, 162, 172);
 
 .skills h1{
     margin-bottom: 10px;
+    
 }
 .dev-icons{
     background: #f9f9f9;
@@ -343,12 +344,15 @@ font-size: 20px;
     background: #000;
     border-bottom-right-radius: 10%;
     border-top-right-radius: 45%;
-    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+    box-shadow: 0 1px 6px #d35400;
+    
 }
+
 .social-icons ul li:hover{
    padding-left: 20px;
    width: 50px;
-   transition: .4s; 
+   transition: .4s;
+   color: #e08c2c;
 }
 .social-icons ul li a{
     width: 30px;
